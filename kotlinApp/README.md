@@ -1,5 +1,4 @@
-
-Android NotificationChannels Sample
+Android NotificationChannels Sample (Kotlin)
 ===================================
 
 Demonstration of using channels to categorize notifications by topic. This feature was
