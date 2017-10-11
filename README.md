@@ -19,7 +19,7 @@ your app. For example, you might setup separate notification channels for each
 conversation group created by a user in a messaging app.
 
 To create a channel, call `[NotificationManager.createNotificationChannels()][1]`. You
-can then use `[Notification.Builder.setChannelId()][2]` to assign your notification to that
+can then use `[Notification.Builder.setChannel()][2]` to assign your notification to that
 channel.
 
 Users can now manage most of the settings associated with notifications using a
@@ -36,13 +36,13 @@ startActivity(intent);
 
 
 [1]: https://developer.android.com/reference/android/app/NotificationManager.html#createNotificationChannels(java.util.List<android.app.NotificationChannel>)
-[2]: https://android-dot-devsite.googleplex.com/reference/android/app/Notification.Builder.html#setChannelId(java.lang.String)
+[2]: https://android-dot-devsite.googleplex.com/reference/android/app/Notification.Builder.html#setChannel(java.lang.String)
 
 Pre-requisites
 --------------
 
 - Android SDK 26
-- Android Build Tools v25.0.3
+- Android Build Tools v26.0.1
 - Android Support Repository
 
 Screenshots
